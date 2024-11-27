@@ -12,6 +12,7 @@ const book = {
 
 function getBookInfo(book) {
   // Din kod här
+  const {title, author} = book;
   return `Titel: ${book.title}, Författare: ${book.author}`;
 }
 
